@@ -1,0 +1,41 @@
+
+Project location
+
+C:\Users\kmmol\IdeaProjects\Selenium
+
+Pre- requisit
+
+Git installation -- local repo
+Github setup ----Remote repository and create remote
+
+repository url: https://github.com/Kmmolepo50/Selenium.git
+
+create repository
+
+Git and github flow
+
+round 1
+
+1) git init ---Create new repository
+2) provide user info to git repo (One time
+
+git config --global user.name "Kmmolepo50"
+git config --global user.email "Kmmolepo50@gmail.com"
+
+3) git status -- Shows untract files (will be in red)
+4 git add -A (all fills)  
+git add Master.xml  filename
+git add Master.xml  folder
+
+4 Commit the code into local (git repo)
+
+git commit -m "First Conmit"
+git status
+
+5 Connect local repository with remote rep (one time)
+ git remote and origin "https://github.com/Kmmolepo50/Selenium.git"
+
+6 push code into remote repo
+  git push origin master
+
+Token
