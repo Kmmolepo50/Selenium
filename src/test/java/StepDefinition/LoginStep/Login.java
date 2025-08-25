@@ -1,6 +1,6 @@
 package StepDefinition.LoginStep;
 
-import Fuctionality.PageObject.LoginPage.LoginPage;
+import PageObject.LoginPage.LoginPage;
 import StepDefinition.Hooks;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;

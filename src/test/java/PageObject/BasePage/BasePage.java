@@ -1,4 +1,4 @@
-package Fuctionality.PageObject.BasePage;
+package PageObject.BasePage;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;

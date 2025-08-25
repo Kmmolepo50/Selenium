@@ -1,4 +1,4 @@
-package Fuctionality.TestRunners;
+package TestRunners;
 
 
 import io.cucumber.testng.AbstractTestNGCucumberTests;

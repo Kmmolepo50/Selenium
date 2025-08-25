@@ -2,7 +2,7 @@
 <suite name="Cucumber TestNG Suite">
     <test name="Cucumber Tests">
         <classes>
-            <class name="Fuctionality.TestRunners.TestingRunner" />
+            <class name="TestRunners.TestingRunner" />
         </classes>
     </test>
 </suite>

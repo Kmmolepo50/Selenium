@@ -1,6 +1,6 @@
 package StepDefinition.AdminStep;
 
-import Fuctionality.PageObject.AddAdmin.AddAdminPage;
+import PageObject.AddAdmin.AddAdminPage;
 import StepDefinition.Hooks;
 import Utilities.DataTableUtils;
 import io.cucumber.datatable.DataTable;

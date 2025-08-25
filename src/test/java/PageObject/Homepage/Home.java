@@ -1,4 +1,4 @@
-package Fuctionality.PageObject.Homepage;
+package PageObject.Homepage;
 
 import StepDefinition.Hooks;
 import org.openqa.selenium.WebDriver;

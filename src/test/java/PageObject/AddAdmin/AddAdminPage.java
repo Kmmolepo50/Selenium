@@ -1,13 +1,11 @@
-package Fuctionality.PageObject.AddAdmin;
+package PageObject.AddAdmin;
 
-import Fuctionality.PageObject.BasePage.BasePage;
-import StepDefinition.Hooks;
+import PageObject.BasePage.BasePage;
 import Utilities.LoggerUtils;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 
 import static StepDefinition.Hooks.click;
