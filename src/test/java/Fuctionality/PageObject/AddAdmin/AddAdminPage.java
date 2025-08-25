@@ -1,5 +1,6 @@
 package Fuctionality.PageObject.AddAdmin;
 
+import Fuctionality.PageObject.BasePage.BasePage;
 import StepDefinition.Hooks;
 import Utilities.LoggerUtils;
 import org.apache.logging.log4j.Logger;
@@ -9,7 +10,10 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 
-public class AddAdminPage extends Hooks {
+import static StepDefinition.Hooks.click;
+import static StepDefinition.Hooks.isElementDisplayed;
+
+public class AddAdminPage extends BasePage {
     WebDriver driver;
 
     @FindBy(xpath = "//span[text()='Admin']")
@@ -22,12 +26,8 @@ public class AddAdminPage extends Hooks {
     public WebElement validateAddUserScreen;
 
 
-
-
-
     public AddAdminPage(WebDriver driver) {
-        this.driver = driver;
-        PageFactory.initElements(driver, this);
+        super(driver);
     }
     private static final Logger logger = LoggerUtils.getLogger(AddAdminPage.class);
     public void setClickAdminMenu(){
