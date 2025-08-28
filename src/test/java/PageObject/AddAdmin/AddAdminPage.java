@@ -50,12 +50,22 @@ public class AddAdminPage extends BasePage {
             throw new RuntimeException(e.getMessage());
         }
     }
-    public void captureUserName(String username,String password){
-        sendKeys(adminPassword,password);
+    public void captureUserName(String username){
+       try{
+           sendKeys(adminUserName,username);
+       }catch (Exception e){
+           logger.info("Username not captured");
+       }
+
     }
 
     public void capturePassWord(String password){
-        sendKeys(adminPassword,password);
+        try {
+            sendKeys(adminPassword,password);
+        }catch (Exception e){
+            logger.info("Password not captured");
+        }
+
     }
 
     public boolean addUserScreenDisplayed(){

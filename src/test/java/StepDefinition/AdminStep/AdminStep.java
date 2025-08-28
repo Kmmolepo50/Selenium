@@ -22,9 +22,11 @@ public class AdminStep {
         addAdminPage.setClickAdminMenu();
         addAdminPage.addAminUser();
         logger.info("admin screen");
-        addAdminPage.captureUserDetails(adminDetails.get("Username"),adminDetails.get("Password"));
+        addAdminPage.captureUserName(adminDetails.get("Username"));
+        addAdminPage.capturePassWord(adminDetails.get("Password"));
         logger.info("admin iput");
         System.out.println(adminDetails.get("Username"));
+        System.out.println(adminDetails.get("Password"));
 
 
     }
