@@ -68,6 +68,7 @@ public static WebElement waitForVisibility(WebDriver driver, By locator) {
         element.click();
     }
 
+    // Display Method
     public static boolean isElementDisplayed(WebElement element) {
         try {
             return element.isDisplayed();
@@ -75,6 +76,7 @@ public static WebElement waitForVisibility(WebDriver driver, By locator) {
             return false;
         }
     }
+    // SendKeys Method
     public static void sendKeys(WebElement element, String text) {
         try {
             element.clear();

@@ -5,8 +5,8 @@ Feature: Add admin user
     Given The user is login into the system
     Then The user succesfully logged in
     And The user add new admin
-      | Username   | Password |
-      | Molepo | pass123  |
+      | Username | Molepo |
+      | Password | pass123  |
 
 
 

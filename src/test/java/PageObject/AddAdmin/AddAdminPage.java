@@ -25,6 +25,10 @@ public class AddAdminPage extends BasePage {
     @FindBy(xpath = "(//input[@class='oxd-input oxd-input--active'])[2]")
     public WebElement adminUserName;
 
+    @FindBy(xpath = "(//div[@class='oxd-form-row user-password-row'])[1]")
+    public WebElement adminPassword;
+
+
 
     public AddAdminPage(WebDriver driver) {
         super(driver);
@@ -46,9 +50,12 @@ public class AddAdminPage extends BasePage {
             throw new RuntimeException(e.getMessage());
         }
     }
-    public void captureUserDetails(String username,String password){
-        sendKeys(adminUserName,username);
-        sendKeys(adminUserName,username);
+    public void captureUserName(String username,String password){
+        sendKeys(adminPassword,password);
+    }
+
+    public void capturePassWord(String password){
+        sendKeys(adminPassword,password);
     }
 
     public boolean addUserScreenDisplayed(){
