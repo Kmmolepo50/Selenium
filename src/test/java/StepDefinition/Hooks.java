@@ -84,10 +84,10 @@ public static WebElement waitForVisibility(WebDriver driver, By locator) {
         }
     }
 
-@After
-public void terminate(){
-driver.close();
-System.out.println("Closed");
- }
+//@After
+//public void terminate(){
+//driver.close();
+//System.out.println("Closed");
+ //}
 
 }
